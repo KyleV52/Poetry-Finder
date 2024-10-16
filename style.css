@@ -26,15 +26,18 @@
 
 
 .lists-container {               
-  margin: 20px;               
+  margin: 20px;
+  display: flex;              
 }
 
 .authors-list {
   columns: 10;
   display: flex; 
   flex-wrap: wrap; 
-  gap: 15px; 
-  margin-top: 20px;     
+  gap: 15px;
+  max-width: 50em;
+  max-height: 30em;
+  overflow: auto;      
 }
 
 .authors-list button {
@@ -47,21 +50,18 @@
 .titles-list {
   background-color: #f9f9f9; 
   border: 1px solid #ddd; 
-  border-radius: 5px; 
   padding: 15px; 
-  margin-top: 20px; 
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+  box-shadow: 0 2px 5px rgba(0, 0, 0, .5);
+  max-width: 60em; 
+  margin-left: 10em;
+  max-height: 30em;
+  overflow: auto;
+  font-size: 20px;
 }
 
 .titles-list h3 {
   color: #333; 
   font-family: 'Arial', sans-serif; 
   margin-bottom: 10px; 
-}
-
-.titles-list ul {
-  list-style-type: none; 
-  padding: 0; 
-  margin: 0; 
 }
 
