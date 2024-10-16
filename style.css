@@ -1,0 +1,67 @@
+.get-btn{
+  width: 6%;
+  height: 30px;
+  margin-left: 2%;
+}
+
+.title{
+  font-size: 2em;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.authors-list button {
+  background-color: #007bff; 
+  color: white; 
+  border: none; 
+  border-radius: 5px; 
+  padding: 10px 15px; 
+  font-size: 16px; 
+  cursor: pointer; 
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.authors-list button:hover {
+  background-color: #007B9E;
+}
+
+
+.lists-container {               
+  margin: 20px;               
+}
+
+.authors-list {
+  columns: 10;
+  display: flex; 
+  flex-wrap: wrap; 
+  gap: 15px; 
+  margin-top: 20px;     
+}
+
+.authors-list button {
+  display: block;              
+  margin: 5px 0;              
+  padding: 10px;              
+  cursor: pointer;             
+}
+
+.titles-list {
+  background-color: #f9f9f9; 
+  border: 1px solid #ddd; 
+  border-radius: 5px; 
+  padding: 15px; 
+  margin-top: 20px; 
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+}
+
+.titles-list h3 {
+  color: #333; 
+  font-family: 'Arial', sans-serif; 
+  margin-bottom: 10px; 
+}
+
+.titles-list ul {
+  list-style-type: none; 
+  padding: 0; 
+  margin: 0; 
+}
+
